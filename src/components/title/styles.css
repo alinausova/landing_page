@@ -1,0 +1,29 @@
+.trails-main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.trails-text {
+    position: relative;
+    width: 100%;
+    /*height: 110px;*/
+    /*line-height: 110px;*/
+    color: black;
+    font-size: 52px;
+    font-weight: 800;
+    /*letter-spacing: -9px;*/
+    will-change: transform, opacity;
+    overflow: hidden;
+    text-align: left;
+}
+
+.trails-text > div {
+    overflow: hidden;
+}
