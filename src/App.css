@@ -22,7 +22,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  font-size: calc(10px + 2vmin);
+  font-size: 18px;
   /* color: white; */
   padding: 8px 5%;
   background: #fafafa;
@@ -66,13 +66,12 @@
 }
 
 .subtitle-text {
-  font-size: 28px;
   color: #999999;
   font-weight: 300;
 }
 
 .subtitle {
-  font-size: 28px;
+  font-size: 24px;
   color: #afafaf !important;
   font-weight: 300;
   padding-top: 20px;
@@ -94,4 +93,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.picture-box {
+
 }
