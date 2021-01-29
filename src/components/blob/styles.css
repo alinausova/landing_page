@@ -78,5 +78,5 @@
     position: absolute;
     top: 0;
     opacity: 0.8;
-    z-index: 100;
+    margin-top: 60px;
 }
