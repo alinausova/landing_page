@@ -23,3 +23,12 @@
     -webkit-filter: grayscale(0%);
     opacity: 1;
 }
+
+@media only screen and (max-width: 650px) {
+    .card {
+        width: calc(45px + 9vw);
+        height: calc(45px + 9vw);
+        font-size: 10px;
+        margin: 0 8px;
+    }
+}

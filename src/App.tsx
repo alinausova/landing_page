@@ -107,7 +107,7 @@ function App() {
           <Card>
             <div className="card-content">
               <div className="pwa-logo"/>
-              <span> Progressive Web <br/> Apps </span>
+              <span> Progressive Web Apps </span>
             </div>
           </Card>
         </div>
@@ -161,7 +161,7 @@ function App() {
         <div className="divider-purple-small"/>
 
         <div className="third-box-title padding-top">
-          ● Worked on applications with following clients
+          Worked on applications with following clients
         </div>
 
         <div className="companies-box">
