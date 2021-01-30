@@ -57,7 +57,7 @@
   flex-direction: column;
   justify-content: left;
   align-items: start;
-  padding: 23% 5% 5%;
+  padding: 35vh 5% 5%;
   pointer-events: none;
 }
 
@@ -80,21 +80,124 @@
 
 .second-box {
   position: relative;
-  height: 98vh;
-  width: 100%;
+  width: calc(100vw - 10%);
   background: var(--secondary-color);
   display: flex;
-  justify-content: center;
-  padding-top: 44px;
+  flex-direction: column;
+  align-items: center;
+  padding: 44px 5%;
+
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  /*padding: 5vh 35vh;*/
+  width: 100%;
+  position: relative;
+  color: white;
+  padding: 7vh 0;
 }
 
 .card-box {
-  width: 60%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding-top: 5%;
 }
 
 .picture-box {
+  background-image: url("./assets/picture.JPG");
+  height: 140px;
+  width: 140px;
+  background-size: contain;
+  border-radius: 50%;
+}
 
+.intro-text-box {
+  display: flex;
+  flex-direction: column;
+  width: 75vw;
+  text-align: left;
+}
+
+.intro-text {
+
+}
+
+.intro-title {
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 1vh;
+  color: white;
+}
+
+.right-align {
+  padding-top: 5vh;
+  text-align: right;
+  margin-right: -20%;
+  margin-left: 20%;
+}
+
+.divider {
+  width: 70%;
+  height: 1px;
+  background: white;
+  opacity: 0.5;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.react-logo {
+  background-image: url("./assets/react-logo.png");
+  background-size: cover;
+  width: 100%;
+  height: 65%;
+  margin-bottom: 3%;
+}
+
+.vue-logo {
+  background-image: url("./assets/vue-logo.png");
+  background-size: cover;
+  width: 60%;
+  height: 50%;
+  margin-top: 10%;
+  margin-bottom: 11%;
+}
+
+.pwa-logo {
+  background-image: url("./assets/pwa-logo.png");
+  background-size: cover;
+  width: 70%;
+  height: 27%;
+  margin-top: 20%;
+  margin-bottom: 13%;
+}
+
+.swift-logo {
+  background-image: url("./assets/Swift_logo.png");
+  background-size: cover;
+  width: 55%;
+  height: 55%;
+  margin-top: 8%;
+  margin-bottom: 10%;
+}
+
+.kotlin-logo {
+  background-image: url("./assets/kotlin-logo.png");
+  background-size: cover;
+  width: 50%;
+  height: 50%;
+  margin-top: 10%;
+  margin-bottom: 11%;
+}
+
+.padding-top {
+  padding-top: 5%;
 }

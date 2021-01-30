@@ -1,0 +1,74 @@
+.card1,
+.card2,
+.card3,
+.card4 {
+    position: absolute;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    will-change: transform;
+}
+
+.card1 {
+    /*min-width: 60ch;*/
+    /*min-height: 60ch;*/
+    width: 25vw;
+    height: 25vw;
+    max-width: 100ch;
+    max-height: 100ch;
+    /*background-image: url(https://image.flaticon.com/icons/svg/119/119596.svg);*/
+    background: lightgoldenrodyellow;
+    border-radius: 50%;
+    filter: blur(16px) !important;
+}
+
+.card2 {
+    width: 20vw;
+    height: 20vw;
+    background: lightpink;
+    border-radius: 50%;
+    opacity: 0.8;
+    filter: blur(16px) !important;
+    /*background-image: url(https://image.flaticon.com/icons/svg/789/789395.svg);*/
+}
+
+.card3 {
+    /*opacity: 0.9;*/
+    width: 7vw;
+    height: 7vw;
+    background: lightblue;
+    opacity: 0.6;
+    border-radius: 50%;
+    filter: blur(16px) !important;
+    /*background-image: url(https://image.flaticon.com/icons/svg/414/414927.svg);*/
+}
+
+.card4 {
+    width: 23vw;
+    height: 23vw;
+    background-image: url("../../assets/picture.JPG");
+    background-size: contain;
+    border-radius: 50%;
+    cursor: pointer;
+    /*background-image: url(https://image.flaticon.com/icons/svg/789/789392.svg);*/
+}
+
+.card5 {
+    width: 23vw;
+    height: 23vw;
+    background-image: url("../../assets/photo.JPG");
+    background-size: contain;
+    border-radius: 50%;
+    cursor: pointer;
+    /*background-image: url(https://image.flaticon.com/icons/svg/789/789392.svg);*/
+}
+
+.container {
+    width: 100%;
+    /*height: 100%;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5%;
+}
