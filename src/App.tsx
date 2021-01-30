@@ -5,6 +5,15 @@ import Title from "./components/title/Title";
 import Card from "./components/card/Card";
 import PictureCard from "./components/picture/PictureCard";
 
+import siemens from './assets/siemens-logo.png';
+import allianz from './assets/allianz-logo.png';
+import bmw from './assets/bmw-logo.png';
+import eos from './assets/eos-logo.svg';
+import tscnet from './assets/tscnet-logo.png';
+import vodafone from './assets/vodafone-logo.png';
+import roche from './assets/roche-logo.png';
+import AnotherBlob from "./components/blob/AnotherBlob";
+
 function App() {
   return (
     <div className="App">
@@ -35,7 +44,9 @@ function App() {
           </span>
 
             <span className="subtitle-text"> and studying MSc. Informatics at Technical University of Munich</span>
+            <span className="subtitle-text"> <br/> ● ● ● </span>
           </div>
+
 
         </div>
 
@@ -68,12 +79,11 @@ function App() {
 
         </div>
 
-        <div  className="intro-title padding-top" >
+        <div  className="intro-title padding-top padding-bottom" >
           Experienced with following tools
         </div>
 
         <div className="card-box">
-
           <Card>
             <div className="card-content">
               <div className="react-logo"/>
@@ -89,7 +99,7 @@ function App() {
           <Card>
             <div className="card-content">
               <div className="pwa-logo"/>
-              <span> Progressive Web Apps </span>
+              <span> Progressive Web <br/> Apps </span>
             </div>
           </Card>
         </div>
@@ -108,10 +118,63 @@ function App() {
             </div>
           </Card>
         </div>
+
+        <div className="card-box padding-bottom" >
+          <Card>
+            <div className="card-content">
+              <div className="illustrator-logo"/>
+              <span> Adobe <br/> Illustrator </span>
+            </div>
+          </Card>
+          <Card>
+            <div className="card-content">
+              <div className="figma-logo"/>
+              <span> Figma </span>
+            </div>
+          </Card>
+          <Card>
+            <div className="card-content">
+              <div className="xd-logo"/>
+              <span> Adobe XD </span>
+            </div>
+          </Card>
+        </div>
+
       </div>
+
+      <div className="third-box" id="another_blob_box">
+        <div className="background-circle-1"/>
+        <div className="background-circle-2"/>
+        <div className="background-circle-3"/>
+        <AnotherBlob/>
+
+        <div className="divider-purple"/>
+
+        <div className="divider-purple-small"/>
+
+        <div className="third-box-title padding-top">
+          ● Worked on applications with following clients
+        </div>
+
+
+
+        <div className="companies-box">
+          <img className="company-logo-card" src={siemens} alt="Logo" width="160px" />
+          <img className="company-logo-card" src={allianz} alt="Logo" width="160px" />
+          <img className="company-logo-card" src={vodafone} alt="Logo" width="160px" />
+          <img className="company-logo-card" src={bmw} alt="Logo" width="80px" />
+          <img className="company-logo-card" src={tscnet} alt="Logo" width="160px" />
+          <img className="company-logo-card" src={eos} alt="Logo" width="130px" />
+          <img className="company-logo-card" src={roche} alt="Logo" width="100px" />
+        </div>
+
+        <div className="divider-dark"/>
+
+      </div>
+
 
     </div>
   );
-}
+};
 
 export default App;

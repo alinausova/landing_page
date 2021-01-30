@@ -23,7 +23,7 @@ code {
 }
 
 a {
-  font-weight: bold;
+  /*font-weight: bold;*/
   color: var(--secondary-color);
   cursor: pointer;
   z-index: 101;
