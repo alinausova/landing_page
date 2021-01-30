@@ -24,3 +24,9 @@
 .trails-text > div {
     overflow: hidden;
 }
+
+@media only screen and (max-width: 730px) {
+    .trails-text {
+        font-size: 36px;
+    }
+}

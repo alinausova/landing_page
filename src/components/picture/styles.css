@@ -64,6 +64,32 @@
     /*background-image: url(https://image.flaticon.com/icons/svg/789/789392.svg);*/
 }
 
+@media only screen and (max-width: 800px) {
+    .card1 {
+        width: 50vw;
+        height: 50vw;
+    }
+    .card2 {
+        width: 40vw;
+        height: 45vw;
+    }
+    .card3 {
+        width: 15vw;
+        height: 15vw;
+    }
+    .card4 {
+        width: 45vw;
+        height: 45vw;
+    }
+    .card5 {
+        width: 45vw;
+        height: 45vw;
+    }
+    .container {
+        margin-bottom: 10vw;
+    }
+}
+
 .container {
     width: 100%;
     /*height: 100%;*/

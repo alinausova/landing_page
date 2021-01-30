@@ -33,10 +33,25 @@ function App() {
           <Title open={true} lineHeight={120}>
             <span className="big-title-text"> Hello there! </span>
           </Title>
-          <Title open={true} lineHeight={80}>
+          <Title open={true} lineHeight={80} className="wide-title">
             <span> I am a mobile and web developer </span>
             <span> passionate about creating beautiful</span>
             <span> user friendly applications</span>
+          </Title>
+          <Title open={true} lineHeight={70} className="middle-title">
+            <span> I am a mobile and web </span>
+            <span> developer passionate</span>
+            <span> about creating beautiful</span>
+            <span> user friendly</span>
+            <span> applications</span>
+          </Title>
+          <Title open={true} lineHeight={55} className="narrow-title">
+            <span> I am a mobile and </span>
+            <span> web developer</span>
+            <span> passionate about</span>
+            <span> creating beautiful </span>
+            <span> user friendly</span>
+            <span> applications</span>
           </Title>
           <div className={"subtitle"}>
             <span className="subtitle-text" >

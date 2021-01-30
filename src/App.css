@@ -63,6 +63,48 @@
   pointer-events: none;
 }
 
+.wide-title {
+
+}
+
+.middle-title {
+  display: none;
+}
+
+.narrow-title {
+  display: none
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 730px) {
+  .wide-title {
+    display: none;
+  }
+
+  .middle-title {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+
+  .wide-title {
+    display: none;
+  }
+
+  .middle-title {
+    display: none;
+  }
+
+  .narrow-title {
+    display: block
+  }
+
+  .subtitle-text {
+    font-size: 18px;
+  }
+
+}
+
 .big-title-text {
   font-size: 72px;
 }
