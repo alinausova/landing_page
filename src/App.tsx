@@ -57,7 +57,7 @@ function App() {
         <div className="intro">
           <div className="intro-text-box">
           <div className="intro-title">
-            Lorem ipsum dolor sit amet
+            About me
           </div>
           <div className="intro-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -65,19 +65,27 @@ function App() {
 
             <div className="right-align">
               <div className="intro-title">
-                Lorem ipsum dolor sit amet
+                My interests and experience
               </div>
-              <div className="intro-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              <div className="intro-tags">
+                <span className="intro-text-card"> prototyping </span>
+                <span className="intro-text-card"> web-development </span>
+                <span className="intro-text-card"> Progressive web Apps </span>
+                <span className="intro-text-card"> iOS apps </span>
+                <span className="intro-text-card"> Cross-platform apps </span>
+                <span className="intro-text-card"> android apps </span>
+                <span className="intro-text-card"> UI/UX design</span>
+                <span className="intro-text-card"> Design thinking </span>
+                <span className="intro-text-card"> ARKit </span>
+                <span className="intro-text-card"> Agile </span>
+                <span className="intro-text-card"> Scrum</span>
               </div>
             </div>
           </div>
           <PictureCard/>
 
         </div>
-        <div className="divider">
-
-        </div>
+        <div className="divider"/>
 
         <div  className="intro-title padding-top padding-bottom" >
           Experienced with following tools
@@ -146,17 +154,15 @@ function App() {
         <div className="background-circle-1"/>
         <div className="background-circle-2"/>
         <div className="background-circle-3"/>
+
         <AnotherBlob/>
 
         <div className="divider-purple"/>
-
         <div className="divider-purple-small"/>
 
         <div className="third-box-title padding-top">
           ● Worked on applications with following clients
         </div>
-
-
 
         <div className="companies-box">
           <img className="company-logo-card" src={siemens} alt="Logo" width="160px" />
@@ -169,10 +175,7 @@ function App() {
         </div>
 
         <div className="divider-dark"/>
-
       </div>
-
-
     </div>
   );
 };

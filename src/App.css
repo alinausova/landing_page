@@ -121,12 +121,29 @@
 .intro-text-box {
   display: flex;
   flex-direction: column;
-  width: 75vw;
+  width: 80vw;
   text-align: left;
 }
 
 .intro-text {
 
+}
+
+.intro-tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.intro-text-card {
+  border: 1px solid white;
+  border-radius: 4px 8px;
+  color: white;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  margin: 4px;
+  font-size: 14px;
 }
 
 .intro-title {
