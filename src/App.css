@@ -103,6 +103,15 @@
     font-size: 18px;
   }
 
+  .first-box {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .big-title-text {
+    font-size: 64px;
+  }
 }
 
 .big-title-text {
@@ -405,4 +414,14 @@
   opacity: 0.8;
   filter: blur(72px) !important;
   border-radius: 50%;
+}
+
+@media only screen and (max-width: 500px) {
+  .company-logo-card {
+    max-width: 100px;
+    max-height: 50px;
+  }
+  .companies-box {
+    width: 100%;
+  }
 }

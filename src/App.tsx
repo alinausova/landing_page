@@ -57,14 +57,10 @@ function App() {
             <span className="subtitle-text" >
             Currently working at <a href="https://motius.de/">Motius</a> as a Frontend developer <br/>
           </span>
-
             <span className="subtitle-text"> and studying MSc. Informatics at Technical University of Munich</span>
             <span className="subtitle-text"> <br/> ● ● ● </span>
           </div>
-
-
         </div>
-
       </div>
 
       <div className="second-box">
@@ -75,9 +71,8 @@ function App() {
             About me
           </div>
           <div className="intro-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            As a computer science student with a major in software engineering and a frontend developer, I have worked on many projects, building applications with various languages and frameworks for different platforms. I am always up for a challenge and like to explore new tools and technologies. I am also interested in user experience design and creating beautiful interfaces for innovative products.
           </div>
-
             <div className="right-align">
               <div className="intro-title">
                 My interests and experience
@@ -162,7 +157,6 @@ function App() {
             </div>
           </Card>
         </div>
-
       </div>
 
       <div className="third-box" id="another_blob_box">
